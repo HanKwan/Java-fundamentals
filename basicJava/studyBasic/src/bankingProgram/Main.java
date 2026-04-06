@@ -59,6 +59,12 @@ public class Main {
             int withdrawAmount;
             System.out.print("Withdraw amount: ");
             withdrawAmount = scanner.nextInt();
+
+            if (withdrawAmount <= 0) {
+                System.out.println("Invalid amount");
+                return 0;
+            }
+
             if (balance < withdrawAmount) {
                 System.out.println("Your balance is lower than " +withdrawAmount);
                 return 0;
