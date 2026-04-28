@@ -14,18 +14,27 @@ public class Main {
                             "Which one is resizable?"};
 
         String[][] options = {{"A. Object-specific", "B. Belongs to class", "C. Cannot be used in methods", "D. Runs faster"},
-                            {"class", "void", "new", "this"},
-                            {"string", "String", "text", "char[] only"},
-                            {"Values only", "Memory reference", "Strings only", "Objects only"},
-                            {"array", "int", "ArrayList", "String"}};
+                            {"A. class", "B. void", "C. new", "D. this"},
+                            {"A. string", "B. String", "C. text", "D. char[] only"},
+                            {"A. Values only", "B. Memory reference", "C. Strings only", "D. Objects only"},
+                            {"A. array", "B. int", "C. ArrayList", "D. String"}};
 
         String[] answers = {"B", "C", "B", "B", "C"};
 
         for (int i = 0; i < questions.length; i++) {
                 System.out.println(questions[i]);
+
             for(String option : options[i]) {
                 System.out.println(option);
+
             }
+                System.out.print("Choose your answer: ");
+                String useAns = scanner.next().toUpperCase().trim();
+                if (useAns.equals(answers[i])) {
+                    System.out.println("Correct");
+                } else {
+                    System.out.println("Wrong");
+                }
         }
     }
 }
