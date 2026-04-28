@@ -7,6 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to quiz game!");
+        System.out.println("---------------------");
         String[] questions = {"What does static mean in Java?",
                             "Which keyword is used to create an object?",
                             "What is the correct type for text in Java?",
@@ -28,13 +29,17 @@ public class Main {
                 System.out.println(option);
 
             }
-                System.out.print("Choose your answer: ");
-                String useAns = scanner.next().toUpperCase().trim();
-                if (useAns.equals(answers[i])) {
-                    System.out.println("Correct");
-                } else {
-                    System.out.println("Wrong");
-                }
+
+            System.out.print("Choose your answer: ");
+            String useAns = scanner.next().toUpperCase().trim();
+
+            if (useAns.equals(answers[i])) {
+                System.out.println("Correct! The answer was " + answers[i]);
+            } else {
+                System.out.println("Wrong! The answer was " + answers[i]);
+            }
+
+            System.out.println("------------------------");
         }
     }
 }
