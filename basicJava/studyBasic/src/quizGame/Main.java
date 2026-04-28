@@ -21,6 +21,7 @@ public class Main {
                             {"A. array", "B. int", "C. ArrayList", "D. String"}};
 
         String[] answers = {"B", "C", "B", "B", "C"};
+        int scores = 0;
 
         for (int i = 0; i < questions.length; i++) {
                 System.out.println(questions[i]);
@@ -35,11 +36,14 @@ public class Main {
 
             if (useAns.equals(answers[i])) {
                 System.out.println("Correct! The answer was " + answers[i]);
+                scores++;
             } else {
                 System.out.println("Wrong! The answer was " + answers[i]);
             }
 
             System.out.println("------------------------");
         }
+
+            System.out.println("Your total score is " + scores);
     }
 }
