@@ -21,6 +21,11 @@ public class Main {
 
         String[] answers = {"B", "C", "B", "B", "C"};
 
-        
+        for (int i = 0; i < questions.length; i++) {
+                System.out.println(questions[i]);
+            for(String option : options[i]) {
+                System.out.println(option);
+            }
+        }
     }
 }
