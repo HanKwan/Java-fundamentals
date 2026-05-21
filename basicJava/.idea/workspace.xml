@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c1d4e48-db67-4682-a7b7-aad0ae9db843" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/alarmClock/AlarmClock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/alarmClock/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/alarmClock/forAlarmNoise.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/arrayLIst/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/bankingProgram/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/constructor/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/constructor/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/countdownTimer/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/countdownTimer/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/guessThePokemon/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/guessThePokemon/pokemonList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/multithreading/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/multithreading/Myrunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/musicPlayer/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/musicPlayer/d6b2ece0.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/quizGame/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/slotGame/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/someBasic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/threading/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basicJava/threading/Myrunnable.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3E17ADqSzLidC4LyhqiAAgupLC4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/saiha/dev/java-fundamentals/basicJava"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c1d4e48-db67-4682-a7b7-aad0ae9db843" name="Changes" comment="" />
+      <created>1779334075629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779334075629</updated>
+    </task>
+    <servers />
+  </component>
+</project>
