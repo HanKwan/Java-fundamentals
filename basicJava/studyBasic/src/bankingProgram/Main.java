@@ -37,8 +37,10 @@ public class Main {
 
         // show balance
         static void showBalance (int balance) {
+            System.out.println();
             System.out.println("Your balance is " + balance);
             System.out.println("********************");
+            System.out.println();
         }
 
         // deposit
@@ -47,7 +49,10 @@ public class Main {
             System.out.print("Deposit amount: ");
             amount = scanner.nextInt();
             if (amount <= 0 ) {
+                System.out.println();
                 System.out.println("Cannot deposit " + amount + " yen");
+                System.out.println("********************");
+                System.out.println();
                 return 0;
             } else {
                 return amount;
@@ -66,7 +71,10 @@ public class Main {
             }
 
             if (balance < withdrawAmount) {
+                System.out.println();
                 System.out.println("Your balance is lower than " +withdrawAmount);
+                System.out.println("********************");
+                System.out.println();
                 return 0;
             } else {
                 return withdrawAmount;
