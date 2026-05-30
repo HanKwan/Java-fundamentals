@@ -13,10 +13,4 @@ public class FirstApplication {
 	public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(FirstApplication.class, args);
 	}
-
-    @GetMapping
-    public String hello() {
-        return "hello world";
-    }
-
 }
