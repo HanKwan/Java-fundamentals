@@ -1,3 +1,10 @@
 spring:
-  application:
-    name: first
+  datasource:
+    url: jdbc:postgresql://localhost:5432/studentdb
+    username: postgres
+    password: posthan
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
