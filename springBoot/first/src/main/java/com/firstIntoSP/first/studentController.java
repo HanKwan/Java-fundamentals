@@ -19,11 +19,14 @@ public class studentController {
 
     @GetMapping
     public List<Student> getStudetns() {
+        return students;
+
+//        post students without db
 //        return List.of(
 //                new Student(1L, "John", "Walton", "john@abcmail.com", 23),
 //                new Student(2L, "Larry", "Lobster", "larry@abcmail.com", 25)
 //        );
-        return students;
+
     }
 
 }
