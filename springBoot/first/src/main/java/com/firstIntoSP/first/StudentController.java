@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/students")
-public class studentController {
+public class StudentController {
 
     private List<Student> students = new ArrayList<>();
 
