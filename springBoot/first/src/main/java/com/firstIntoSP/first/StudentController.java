@@ -2,6 +2,8 @@ package com.firstIntoSP.first;
 
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/students")
 public class StudentController {
@@ -17,7 +19,10 @@ public class StudentController {
        return studentRepository.save(student);
     };
 
-
+    @GetMapping
+    public List<Student> getStudents() {
+        return studentRepository.findAll();
+    }
 
 //    @GetMapping
 //    public List<Student> getStudetns() {
