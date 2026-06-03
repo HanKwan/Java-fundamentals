@@ -27,7 +27,7 @@ public class StudentController {
     }
 
     // get student by id
-    @GetMapping("/{id}")
+    @GetMapping("/search/{id}")
     public Student getStudentById(@PathVariable Long id) {
         return studentRepository.findById(id).orElse(null);
     };
