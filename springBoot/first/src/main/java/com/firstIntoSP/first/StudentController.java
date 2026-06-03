@@ -14,31 +14,22 @@ public class StudentController {
         this.studentRepository = studentRepository;
     }
 
+    // create new student
     @PostMapping
     public Student createStudent(@RequestBody Student student) {
        return studentRepository.save(student);
     };
 
+    // get all students
     @GetMapping
     public List<Student> getStudents() {
         return studentRepository.findAll();
     }
 
-    @GetMapping("/{student-name}")
-    public Student getStudentById(@PathVariable("student-name") Long id) {
+    // get student by id
+    @GetMapping("/{id}")
+    public Student getStudentById(@PathVariable Long id) {
         return studentRepository.findById(id).orElse(null);
     };
-
-//    @GetMapping
-//    public List<Student> getStudetns() {
-//        return students;
-//
-//        post students without db
-//        return List.of(
-//                new Student(1L, "John", "Walton", "john@abcmail.com", 23),
-//                new Student(2L, "Larry", "Lobster", "larry@abcmail.com", 25)
-//        );
-//
-//    }
 
 }
