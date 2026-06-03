@@ -1,5 +1,6 @@
 package com.firstIntoSP.first;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -14,6 +15,8 @@ public class Student {
 
     private String firstName;
     private String lastName;
+
+    @Column(unique = true)
     private String email;
     private Integer age;
 
